@@ -5,7 +5,6 @@ public class DivisibleBy5List {
         int[] arr = {12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 200};
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 5 == 0) {
-                //
                 if (arr[i] > 150){
                     break;
                 }
