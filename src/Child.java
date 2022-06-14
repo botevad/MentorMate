@@ -17,5 +17,6 @@ public class Child extends Person{
 
     public void play(){
         System.out.printf("%s plays games and has fun! \n", getName());
+
     }
 }
