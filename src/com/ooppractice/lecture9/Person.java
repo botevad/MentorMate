@@ -1,3 +1,5 @@
+package com.ooppractice.lecture9;
+
 import java.time.LocalDate;
 
 
@@ -72,11 +74,11 @@ public class Person {
         String hello;
 
         switch (getLanguage()) {
-            case "Bulgarian":
+            case "com.ooppractice.lecture9.Bulgarian":
                 hello = "Здравей";
                 break;
 
-            case "Italian":
+            case "com.ooppractice.lecture9.Italian":
                 hello = "Ciao";
                 break;
             default:
@@ -177,7 +179,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "com.ooppractice.lecture9.Person{" +
                 "name='" + name + '\'' +
                 ", sex='" + sex + '\'' +
                 ", language='" + language + '\'' +

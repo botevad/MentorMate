@@ -1,3 +1,5 @@
+package com.ooppractice.lecture9;
+
 public class Child extends Person{
     public Child(String name, String sex, String language, String religion, String job, String nationality, String pin, String countryOfResidence) {
         super(name, sex, language, religion, null, nationality, pin, countryOfResidence);

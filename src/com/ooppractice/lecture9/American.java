@@ -1,6 +1,8 @@
+package com.ooppractice.lecture9;
+
 public class American extends Person{
     public American(String name, String sex, String language, String religion, String job, String nationality, String pin, String countryOfResidence) {
-        super(name, sex, "English", "Catholic", job, "American", pin, countryOfResidence);
+        super(name, sex, "English", "Catholic", job, "com.ooppractice.lecture9.American", pin, countryOfResidence);
     }
 
     public boolean isAdult() {
@@ -18,7 +20,7 @@ public class American extends Person{
     }
 
     public void playsAmericanFootball() {
-        System.out.printf("%s plays American Football\n", getName());
+        System.out.printf("%s plays com.ooppractice.lecture9.American Football\n", getName());
     }
 
     public void drinkWineHeavily(){

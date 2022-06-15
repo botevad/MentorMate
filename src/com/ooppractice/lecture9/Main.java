@@ -1,8 +1,10 @@
+package com.ooppractice.lecture9;
+
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("Albena", "Female", "Bulgarian", "Orthodox", "QA", "Bulgarian", "0351283437", "Bulgaria");
-        Person person1 = new Person("Marius", "MALE", "Italian", "Catholic", null, "Italian", "0352128347", "Italy");
-        Person person2 = new Person("John", "other", "English", "Islam", "Support", "American", "0345178347", "USA");
+        Person person = new Person("Albena", "Female", "com.ooppractice.lecture9.Bulgarian", "Orthodox", "QA", "com.ooppractice.lecture9.Bulgarian", "0351283437", "Bulgaria");
+        Person person1 = new Person("Marius", "MALE", "com.ooppractice.lecture9.Italian", "Catholic", null, "com.ooppractice.lecture9.Italian", "0352128347", "Italy");
+        Person person2 = new Person("John", "other", "English", "Islam", "Support", "com.ooppractice.lecture9.American", "0345178347", "USA");
 
         System.out.println(person);
         System.out.println(person1);
