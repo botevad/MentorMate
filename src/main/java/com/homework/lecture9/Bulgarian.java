@@ -1,6 +1,8 @@
+package com.homework.lecture9;
+
 public class Bulgarian extends Person{
     public Bulgarian(String name, String sex, String language, String religion, String job, String nationality, String pin, String countryOfResidence) {
-        super(name, sex, "Bulgarian", religion, job, "Bulgarian", pin, countryOfResidence);
+        super(name, sex, "com.homework.lecture9.Bulgarian", religion, job, "com.homework.lecture9.Bulgarian", pin, countryOfResidence);
     }
 
     public void drinks(){
