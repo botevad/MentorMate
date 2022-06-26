@@ -19,7 +19,7 @@ public class CalculatorWithDataProvider {
     @Test (dataProvider = "data-provider", groups = "group2")
     public void testSubtraction (int a, int b, int result) {
         int sum = a - b;
-        Assert.assertEquals(result, sum);
+        Assert.assertNotEquals(result, sum);
     }
 
     @Test (dataProvider = "data-provider", groups = "group3")

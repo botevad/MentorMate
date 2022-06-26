@@ -1,7 +1,9 @@
-<suite name="Test-method Suite" parallel="methods" thread-count="5" >
+<suite name="Test-method Suite" parallel="methods" thread-count="1">
     <test name="Test-method test" group-by-instances="true">
+        <parameter name="username" value="danibot"/>
+        <parameter name="password" value="dani123"/>
         <classes>
-            <class name="com.homeworklecture10.testngexercise.CalculatorWithDataProvider" />
+            <class name="api.tests.RestAssuredDemoTest"/>
         </classes>
     </test>
 </suite>
