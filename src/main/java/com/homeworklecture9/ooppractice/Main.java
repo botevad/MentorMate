@@ -1,3 +1,5 @@
+package com.homeworklecture9.ooppractice;
+
 public class Main {
     public static void main(String[] args) {
         Person person = new Person("Albena", "Female", "Bulgarian", "Orthodox", "QA", "Bulgarian", "0351283437", "Bulgaria");

@@ -1,3 +1,5 @@
+package com.homeworklecture9.ooppractice;
+
 public class Italian extends Person{
     public Italian(String name, String sex, String language, String religion, String job, String nationality, String pin, String countryOfResidence) {
         super(name, sex, "Italian", religion, job, "Italian", pin, countryOfResidence);
